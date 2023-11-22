@@ -1,0 +1,22 @@
+1 - ¿Qué son requerimientos de software?
+También llamados requisitos de software; son las especificaciones y las funciones que el software debe cumplir para satisfacer las necesidades del cliente. En otras palabra es lo que debe de hacer el software para ser exitoso y funcional.
+
+2 - ¿Qué son requerimientos funcionales?
+Son las acciones u operaciones que el software debe realizar.
+
+3 - ¿Qué son requerimientos no funcionales?
+Son las caracteristicas que No se relacionan con la parte funcional del software, pero que igualmente son importantes para su exito.
+
+4 - Dar 5 ejemplos de requerimientos funcionales.
+Procesar datos
+Realizar calculos
+Generar informes
+Gestión de perfiles de usuario
+Busqueda avanzada
+
+5- Dar 5 ejemplos de requerimientos no funcionales.
+Seguridad.
+Rendimiento
+Mantenimiento
+Usabilidad
+Disponibilidad
