@@ -1,3 +1,9 @@
 1 - ¿Qué es un ciclo de desarrollo de software?
+Tambíen llamado ciclo de vida de desarrollo de software (SDLC); es un conjunto de pasos que se utilizan para crear aplicaciones de software. Estos dividen el proceso de desarrollo en tareas que se pueden asignar, completar y medir. El objetivo es minimizar el riego del proyecto por medio de una planificación anticipada.
+
 2 - ¿Cuáles son las fases principales de un ciclo de desarrollo?
+Las fases princiales de un ciclo de desarrollo de software se refieren al proceso de planificación, que son las tareas como análisis de costos, estimación de recursos, programación, etc. Diseño, implementación, pruebas, despliegue y mantenimiento.
+
 3 - ¿Por qué existen varios tipos de ciclos de desarrollo de software?
+Es importante señalar que existen varias, de manera que es decisión del equipo cual implementarla.
+Al trabajar con una metodología podrás controlar el desarrollo de trabajo, así anticipando los márgenes de errores y adelantarse a ciertas situaciones, ahorrando tiempo y gestionando de la mejor manera posible los recursos disponibles
