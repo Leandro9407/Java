@@ -1,0 +1,20 @@
+1 - ¿Qué es una paradigma de programación?
+Es una manera, método o estilo de programación de software, esto implica que existen varios modos y formas para construir un software. 
+
+2 - ¿Cuáles paradigmas de programación existen?
+*Programación imperativa: explicar de forma muy clara el código realizado.
+	-programación estructurada
+	-programación por procedimientos
+	-programcion orientada a objetos
+
+*Programación declarativa:
+	-programación funcional
+	-programación lógica
+
+*Programación reactiva
+
+3 - ¿Qué es el paradigma de programación orientado a objetos (POO)?
+Esta basado en objetos, representan elementos cotidianos que tienen características y funciones, en otras palabras es programar por medio de los objetos que existen en la vida real
+
+4 - ¿Qué es Java?
+Es un lenguaje de programación
