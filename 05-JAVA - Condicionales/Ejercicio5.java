@@ -16,13 +16,15 @@ public class Ejercicio5{
 
         if (numero_1<numero_2 & numero_1<numero_3 & numero_2<numero_3){
 
-        System.out.println("Se ingresaron en orden ascendente");
+            System.out.println("Se ingresaron en orden ascendente");
 
-        } else if (numero_2<numero_1 & numero_2<numero_3 & numero_1<numero_3){
-            
+        } else if (numero_1>numero_2 & numero_1>numero_3 & numero_2>numero_3) {
+
+            System.out.println("Se ingresaron en orden descendente");
+
+        } else {
+            System.out.println("Se ingresaon en desorden");
         }
-
-
 
     }
 }
