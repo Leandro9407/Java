@@ -64,7 +64,7 @@ public class Ejercicio10{
                 float obtener=15-sumatoria;
                 float aprobar_mate=matematicas+obtener;
                 double roundedAprobar_mate=Math.round(aprobar_mate * 100.0)/100.0;
-                System.out.println("Debio obtener una nota de " + roundedAprobar_mate + "en matematicas para aprobar el periodo");
+                System.out.println("Debio obtener una nota de " + roundedAprobar_mate + " en matematicas para aprobar el periodo");
     
             } else if (español<matematicas & español<ingles & español<naturales & español<deportes){
                 float obtener=15-sumatoria;
