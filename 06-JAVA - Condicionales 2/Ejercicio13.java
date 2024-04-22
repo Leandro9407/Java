@@ -16,12 +16,8 @@ public class Ejercicio13{
             System.out.println("El numero es divisible por: 2, 3, y 5");
 
         } else {
-            System.out.println("No es divisible por: 2, 3, y 5");
+            System.out.println("El numero no es divisible por: 2, 3, y 5");
         }
-
-
-
-
 
     }
 }

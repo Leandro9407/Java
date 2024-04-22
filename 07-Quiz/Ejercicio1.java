@@ -50,11 +50,8 @@ public class Ejercicio1{
         if (n2==0){
             System.out.print("");
 
-        } else if (n2==1) {
-            System.out.print("DIEZ Y "); 
-
         } else if (n2==1 & n3==0) {
-            System.out.print("DIEZ ");
+            System.out.print("DIEZ "); 
 
         } else if (n2==1 & n3==1) {
             System.out.print("ONCE ");
@@ -70,12 +67,15 @@ public class Ejercicio1{
 
         } else if (n2==1 & n3==5) {
             System.out.print("QUINCE ");
+            
+        } else if (n2==1) {
+            System.out.print("DIEZ Y ");
 
         } else if (n2==2 & n3==0){
             System.out.print("VEINTE");
 
         } else if (n2==2) {
-            System.out.print("VEINTI ");
+            System.out.print("VEINTI Y ");
         
         } else if (n2==3 & n3==0){
             System.out.print("TREINTA");
@@ -124,22 +124,24 @@ public class Ejercicio1{
         if (n1==0 & n2==0 & n3==0){
             System.out.print("CERO");
         
-        }else if(n3==1) {
+        }else if (n2==0 | n2==2 | n2==3 | n2==4 | n2==5 | n2==6 | n2==7 | n2==8 | n2==9 && n3==1) {
             System.out.print("UNO ");
 
-        } else if (n3==2) {
+        } else if (n2==0 | n2==2 | n2==3 | n2==4 | n2==5 | n2==6 | n2==7 | n2==8 | n2==9 && n3==2) {
             System.out.print("DOS ");
 
-        } else if (n3==3) {
+        } else if (n2==0 | n2==2 | n2==3 | n2==4 | n2==5 | n2==6 | n2==7 | n2==8 | n2==9 && n3==3) {
             System.out.print("TRES ");
 
-        } else if (n3==4) {
+        } else if (n2==0 | n2==2 | n2==3 | n2==4 | n2==5 | n2==6 | n2==7 | n2==8 | n2==9 && n3==4) {
             System.out.print("CUATRO ");
 
-        } else if (n3==5) {
-            System.out.print("CINCO ");              
+        } else if (n2==0 | n2==2 | n2==3 | n2==4 | n2==5 | n2==6 | n2==7 | n2==8 | n2==9 && n3==5) {
+            System.out.print("CINCO ");      
+        }
 
-        } else if (n3==6) {
+
+        if (n3==6) {
             System.out.print("SEIS ");
 
         } else if (n3==7) {
