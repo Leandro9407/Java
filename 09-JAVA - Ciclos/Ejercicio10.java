@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejercicio9 {
+public class Ejercicio10 {
     public static void main(String[] args){
 
         Scanner entrada=new Scanner (System.in);
@@ -8,33 +8,25 @@ public class Ejercicio9 {
         System.out.print("Ingrese numero: ");
         int numero=entrada.nextInt();
 
-        double cont=1;
+        int multi=numero*numero;
+        int cont=1;
         int cont_primo=0;
 
-        for (int i=1; i<=numero; i++){
+        for (int i=1; i<=multi; i++){
 
-            double primo=numero%cont;
+            int primo=cont_primo%cont;
     
             cont++;
 
             if (primo==0){
                 cont_primo++;
+                System.out.print(", " + primo);
+                
                 
             }
 
         }
                 
-            if (cont_primo==2){
-                
-                System.out.println("El numero ingresado es primo");
-
-            } else if (cont_primo>2){
-                System.out.println("El numero ingresado no es primo");
-            }
-
-        
-
-        
 
 
 

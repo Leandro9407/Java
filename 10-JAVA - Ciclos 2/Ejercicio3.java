@@ -8,12 +8,14 @@ public class Ejercicio3{
         System.out.print("Ingrese numero: ");
         int numero=entrada.nextInt();
        
-        int guardado=0;
+        String guardado=" ";
         int contador=0;
+        boolean buscar=true;
+        int cont_primo=0;
 
-        for (int i=0; i<numero; i++){
+        while (buscar){
 
-            int cont_primo=0;
+            cont_primo=0;
             int cont_uno=0;
             
             int aleatorio=(int)(Math.random()*100+1);
@@ -31,20 +33,24 @@ public class Ejercicio3{
         }
 
         if (cont_primo==2){
-            guardado=aleatorio;
-            
-        }
-
-        }
-
-        System.out.println("Primos aleatorios:");
-
-        for (int j=0; j<numero; j++){
-
             contador+=1;
-
-           System.out.println("Primo " + contador + " generador: " + guardado);
+            System.out.println("Primo " + contador + " generador: " + aleatorio);
         }
+
+        if (contador==numero){
+            buscar=false;
+        }
+
+        }
+
+       // System.out.println("Primos aleatorios:");
+
+       // for (int j=0; j<numero; j++){
+
+            
+
+           
+       // }
             
         
 
