@@ -8,7 +8,6 @@ public class Ejercicio3{
         System.out.print("Ingrese numero: ");
         int numero=entrada.nextInt();
        
-        String guardado=" ";
         int contador=0;
         boolean buscar=true;
         int cont_primo=0;
@@ -42,18 +41,7 @@ public class Ejercicio3{
         }
 
         }
-
-       // System.out.println("Primos aleatorios:");
-
-       // for (int j=0; j<numero; j++){
-
-            
-
-           
-       // }
-            
         
-
 
 
     }
