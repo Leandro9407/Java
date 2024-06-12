@@ -7,20 +7,28 @@ public class Ejercicio2 {
         int dia=0;
         int mes=0;
         int ano=0;
-
-        for (int i=0; i<31; i++){
-            int uno=(int)(Math.random()*31+1);
-            dia=uno;
-   
-        }
-
+    
+       
         for (int i=0; i<12; i++){
             int dos=(int)(Math.random()*12+1);
             mes=dos;
-  
-        }
 
-        for (int i=0; i<2024; i++){
+            if (mes==2) {
+                for (int j=0; j<29; j++){
+                     int uno=(int)(Math.random()*29+1);
+                    dia=uno;
+                }    
+   
+            } else {
+
+                for (int d=0; d<31; d++){
+                    int uno=(int)(Math.random()*31+1);
+                         dia=uno;
+                }
+            }
+        }
+        
+        for (int a=0; a<2024; a++){
             int tres=(int)(Math.random()*2024+1);
             ano=tres;
 
@@ -34,12 +42,12 @@ public class Ejercicio2 {
         } else{
             System.out.print(dia);
         }
-
+    
 
         if (mes<10){
             System.out.print("0" + mes);
 
-        } else{
+        } else {
             System.out.print(mes);
         }
 
@@ -51,10 +59,10 @@ public class Ejercicio2 {
             System.out.print(ano);
         }
 
-
+    
 
 
     }
     
-    }
-
+   
+}

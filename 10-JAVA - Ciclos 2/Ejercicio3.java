@@ -10,35 +10,34 @@ public class Ejercicio3{
        
         int contador=0;
         boolean buscar=true;
-        int cont_primo=0;
 
         while (buscar){
 
-            cont_primo=0;
+            int cont_primo=0;
             int cont_uno=0;
             
             int aleatorio=(int)(Math.random()*100+1);
 
             for(int j=0; j<aleatorio; j++){
                 
-            cont_uno++;    
-            int primo=aleatorio%cont_uno;
+                cont_uno++;    
+                 int primo=aleatorio%cont_uno;
 
-            if (primo==0){
+                if (primo==0){
                 cont_primo++;
+
+                }
 
             }
 
-        }
+            if (cont_primo==2){
+                contador+=1;
+                System.out.println("Primo " + contador + " generador: " + aleatorio);
+            }
 
-        if (cont_primo==2){
-            contador+=1;
-            System.out.println("Primo " + contador + " generador: " + aleatorio);
-        }
-
-        if (contador==numero){
-            buscar=false;
-        }
+            if (contador==numero){
+             buscar=false;
+            }
 
         }
         
