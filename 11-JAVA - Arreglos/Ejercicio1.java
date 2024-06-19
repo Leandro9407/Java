@@ -19,7 +19,8 @@ public class Ejercicio1{
                 cont++;
                 
             }
-}
+        }
+        
             for (int i=0; i<numero; i++){
                 System.out.println("Numero impar " + (i+1) + ": " + arreglo[i]);
             }

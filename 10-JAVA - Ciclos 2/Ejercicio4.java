@@ -25,7 +25,7 @@ public class Ejercicio4{
             System.out.println(a);
 
             if (numero==a){
-            System.out.print("El numero es polindromo");
+                System.out.print("El numero es polindromo");
             } else {
                 System.out.print("El numero no es polindromo");
             }
