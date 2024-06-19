@@ -10,20 +10,30 @@ public class Ejercicio1{
 
         int vector[]=new int[longitud];
 
-        
-        for (int i=0; i<=longitud-1; i++){
-            int aleatorio=(int) (Math.random()*100+1);
-            
-            int impar=aleatorio%2;
+        boolean buscar=false;
+        int cont=0;
 
-            if (impar==1){
-                vector[i]=aleatorio;
-            } else {
-                i--;
-            }
-        
+        while (cont<vector.length) {
+
+            int aleatorio=(int) (Math.random()*1000+1);
+
+                if (aleatorio%2==1){ 
+
+                    for (int i=0; i<=longitud-1; i++){
+                        if (aleatorio==vector[i]){
+                            buscar=true;
+                        }
+                    }
+
+                    if (buscar==false){
+                        vector[cont]=aleatorio;
+                        cont++;
+                        
+                    }
+
+                }
+
         }
-
 
             for (int i=0; i<=longitud-1; i++){
                 System.out.println("Numero impar " + (i+1) + ": " + vector[i]);
