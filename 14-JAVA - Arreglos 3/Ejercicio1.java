@@ -19,7 +19,7 @@ public class Ejercicio1{
 
         
         for (int i=0; i<vector.length; i++){
-            System.out.println(i + ". Nombre: " + vector[i]);
+            System.out.print(i + ". Nombre: " + vector[i]);
         }
 
 
