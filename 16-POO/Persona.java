@@ -52,7 +52,7 @@ public class Persona{
 
     public void dormir(int horas_sueño){
         if (horas_sueño>7){
-            nivel_energia = nivel_energia + (nivel_energia*0.10);
+            nivel_energia = nivel_energia + (nivel_energia*0.10 );
         }
 
         if (horas_sueño<7){
