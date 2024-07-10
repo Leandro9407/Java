@@ -3,7 +3,7 @@ public class Banco{
 
         CajeroElectronico cajero = new CajeroElectronico();
 
-        cajero.abastecerCajero(1, 1, 1, 1);
+        cajero.abastecerCajero("Leandro", "entrarAlAdmin", 20, 15, 10, 8);
         cajero.imprimirCajero();
 
 

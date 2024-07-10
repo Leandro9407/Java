@@ -1,20 +1,18 @@
 1 - ¿Qué es programación orientada a objetos (POO)?
-Es un paradigma, estilo o módelo de programación que se organiza alrededor de datos y objetos;
-representan elementos cotidianos que tienen características o comportamientos y funciones o acciones, en otras palabras es programar
-simulando objetos que existen en la vida real.
+Es un paradigma, estilo o modelo de programación que se organiza alrededor de datos y objetos;
+representan elementos cotidianos que tienen características o comportamientos y funciones o acciones, en otras palabras es programar simulando objetos que existen en la vida real.
 
 2 - ¿En POO, qué es una clase?
-Es una plantilla o molde que, define características y acciones tendra esa clase. Se visualiza con extenciones, por ejemplo (archivos.java).
+Es una plantilla o molde que, define características y acciones que tendrá esa clase. Se visualiza con extensiones, por ejemplo (archivos.java).
 
 3 - ¿En POO, qué son los atributos?
-Describen datos o características propios que van a tener esas plantillas. SON VARIABLES GLOBALES que almancena variables de ese molde. Ejemplo un cajero (tipo, alto, ancho, capacidad
-dineroDisposble).
+Describen datos o características propios que van a tener esas plantillas. SON VARIABLES GLOBALES que almacenan variables de ese molde. Ejemplo un cajero (tipo, alto, ancho, capacidad dinero disponible).
 
 4 - ¿En POO, qué es son los métodos?
-Son acciones que realiza el objeto; esas acciones se representan como FUNCIONES. Toda acciones que esta dentro de una clase es un metodo, si esta fuera es una funcion
+Son acciones que realiza el objeto; esas acciones se representan como FUNCIONES. Toda acciones que esta dentro de una clase es un método, si esta fuera es una función.
 
 5 - ¿En POO, qué es el constructor?
-Es un método o función especial para darle el valor inicial a los atributos.
+Es un método o función especial para darle valores iniciales a los atributos.
 
 6 - ¿En POO, qué es una instancia de clase?
-Es la creación una variable mediante la plantilla.
+Es la creación de una variable mediante la plantilla; es crear un objeto a partir de una clase, de una la palabra new.

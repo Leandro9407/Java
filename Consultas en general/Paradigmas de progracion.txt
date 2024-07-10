@@ -5,7 +5,7 @@ Es una manera, método o estilo de programación de software, esto implica que e
 *Programación imperativa: explicar de forma muy clara el código realizado.
 	-programación estructurada
 	-programación por procedimientos
-	-programcion orientada a objetos
+	-programación orientada a objetos
 
 *Programación declarativa:
 	-programación funcional
